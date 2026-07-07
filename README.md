@@ -1,4 +1,4 @@
-local Players = game:GetService("Players")
+loadstring(game:HttpGet("local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
 local Workspace = game:GetService("Workspace")
 
@@ -146,3 +146,4 @@ end
 
 -- ربط زر التشغيل بدالة الطيران
 ToggleBtn.MouseButton1Click:Connect(ToggleFly)
+"))()
